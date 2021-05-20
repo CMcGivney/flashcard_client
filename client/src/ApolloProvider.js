@@ -10,7 +10,7 @@ import {
 import { setContext } from "apollo-link-context";
 
 const httpLink = createHttpLink({
-  uri: 'https://dashboard.heroku.com/apps/flashcard-server-01'
+  uri: 'https://flashcard-server-01.herokuapp.com/'
 });
 
 const authLink = setContext(() => {
